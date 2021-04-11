@@ -1,0 +1,8 @@
+com/swe645/entity/Product.class
+com/swe645/controller/StudentController.class
+com/swe645/entity/Student.class
+com/swe645/repository/ProductRepository.class
+com/swe645/repository/StudentRepository.class
+com/swe645/service/ProductService.class
+com/swe645/SpringBootApplication.class
+com/swe645/service/StudentService.class
