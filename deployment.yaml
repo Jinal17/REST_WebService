@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: jinal0217/hw3_backend:v1
+          image: jinal0217/hw3_backend:tagVersion
           imagePullPolicy: Always
           ports:
             - name: web
