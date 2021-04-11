@@ -39,22 +39,18 @@ public class StudentService {
 
     public Student updateStudent(Student student) {
         Student existingProduct = repository.findById(student.getId()).orElse(null);
-        existingProduct.setStudentId(student.getStudentId());
         existingProduct.setName(student.getName());
+        existingProduct.setLastname(student.getLastname());
         existingProduct.setAddress(student.getAddress());
         existingProduct.setCity(student.getCity());
         existingProduct.setState(student.getState());
         existingProduct.setZip(student.getZip());
-        existingProduct.setPhoneNum(student.getPhoneNum());
-
+        existingProduct.setPhone(student.getPhone());
         existingProduct.setEmail(student.getEmail());
-        existingProduct.setGradMonth(student.getGradMonth());
-        existingProduct.setGradYear(student.getGradYear());
-
-        existingProduct.setLikes(student.getLikes());
-        existingProduct.setInterests(student.getInterests());
-        existingProduct.setComments(student.getComments());
-        existingProduct.setRecommendation(student.getRecommendation());
+        existingProduct.setDos(student.getDos());
+        existingProduct.setAbout_college(student.getAbout_college());
+        existingProduct.setInterested(student.getInterested());
+        existingProduct.setRecommend(student.getRecommend());
         return repository.save(existingProduct);
     }
 

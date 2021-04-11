@@ -16,10 +16,10 @@ public class Student {
     @Id
     @GeneratedValue
     private int id;
-    @Column(name="student_id")
-    private String studentId;
-    @Column(name="username")
+    @Column(name="firstname")
     private String name;
+    @Column(name="lastname")
+    private String lastname;
     @Column(name="address")
     private String address;
     @Column(name="city")
@@ -28,20 +28,16 @@ public class Student {
     private String state;
     @Column(name="zip")
     private String zip;
-    @Column(name="phone_num")
-    private String phoneNum;
+    @Column(name="phone")
+    private String phone;
     @Column(name="email")
     private String email;
-    @Column(name="grad_month")
-    private String gradMonth;
-    @Column(name="grad_year")
-    private String gradYear;
-    @Column(name="likes")
-    private String likes;
-    @Column(name="interests")
-    private String interests;
-    @Column(name="comments")
-    private String comments;
-    @Column(name="recommendation")
-    private String recommendation;
+    @Column(name="dos")
+    private String dos;
+    @Column(name="about_college")
+    private String about_college;
+    @Column(name="interested")
+    private String interested;
+    @Column(name="recommend")
+    private String recommend;
 }
