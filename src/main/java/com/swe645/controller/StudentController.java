@@ -13,7 +13,7 @@ public class StudentController {
     @Autowired
     private StudentService service;
 
-//    @CrossOrigin(origins="http://localhost:9292")
+    @CrossOrigin(origins="http://localhost:53812")
     @PostMapping("/addStudent")
     public Student addStudent(@RequestBody Student student) {
         return service.saveStudent(student);
