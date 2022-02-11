@@ -8,12 +8,12 @@ DockerHub: [here](https://hub.docker.com/repository/docker/jinal0217/hw3_backend
 #### KUBERNETES
 Deployment & Service Files Contains: container, kubernetes related deployment and execution definitions
 
-#### Git: URL : [here](https://github.com/Jinal17/swe645_webservice)
+#### Git: URL : [here](https://github.com/Jinal17/REST_WebService)
 
 
 ## Steps for Triggering the Build through Jenkins:
 
-- **First Time User** Clone this Repo using: git clone https://github.com/Jinal17/swe645_webservice
+- **First Time User** Clone this Repo using: git clone https://github.com/Jinal17/REST_WebService
 - Make necessary changes in java files for the Web service on your local system
 - Modify the **DOCKER_TAG** version in Jenkinsfile. For example: Modify the **DOCKER_TAG** = ‘V8’ : to V9 (any version)
 - $git status
